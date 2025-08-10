@@ -5,38 +5,60 @@ const { ADMINS } = require('./config');
 
 const bot = new TelegramBot(process.env.BOT_TOKEN, { polling: true });
 
+// Boshlanish
 bot.onText(/\/start/, (msg) => {
     const chatId = msg.chat.id;
+    sendModelSelection(chatId);
+});
+
+// Model tanlash
+function sendModelSelection(chatId) {
     bot.sendMessage(chatId, "Qaysi model uchun mahsulot qidiryapsiz?", {
         reply_markup: {
-            keyboard: models.map(m => [m]),
+            keyboard: [...models.map(m => [m])],
             resize_keyboard: true
         }
     });
-});
+}
+
+// Kategoriya tanlash
+function sendCategorySelection(chatId) {
+    bot.sendMessage(chatId, "Qaysi kategoriya?", {
+        reply_markup: {
+            keyboard: [
+                ...categories.map(c => [c]),
+                ["🔙 Orqaga qaytish"]
+            ],
+            resize_keyboard: true,
+            one_time_keyboard: true
+        }
+    });
+}
+
+// Xabarlar
 bot.on('message', (msg) => {
     const chatId = msg.chat.id;
     const text = msg.text;
 
     if (models.includes(text)) {
         const model = text;
-        bot.sendMessage(chatId, "Qaysi kategoriya?", {
-            reply_markup: {
-                keyboard: categories.map(c => [c]),
-                resize_keyboard: true,
-                one_time_keyboard: true
-            }
-        });
+        sendCategorySelection(chatId);
 
         bot.once('message', (catMsg) => {
             const category = catMsg.text;
+
+            if (category === "🔙 Orqaga qaytish") {
+                sendModelSelection(chatId);
+                return;
+            }
+
             const productList = products?.[model]?.[category];
 
             if (productList?.length) {
                 productList.forEach(p => {
-                    bot.sendMessage(chatId, `🛒 ${p.name}
-📄 ${p.description}`);
+                    bot.sendMessage(chatId, `🛒 ${p.name}\n📄 ${p.description}`);
                 });
+
                 bot.sendMessage(chatId, "Buyurtma berish uchun kontakt yuboring:", {
                     reply_markup: {
                         keyboard: [[{
@@ -54,9 +76,11 @@ bot.on('message', (msg) => {
             bot.once('contact', (contactMsg) => {
                 const contact = contactMsg.contact;
                 ADMINS.forEach(admin => {
-                    bot.sendMessage(@${admin}, `📞 Yangi buyurtma:
+                    bot.sendMessage(admin, `📞 Yangi buyurtma:
 Ismi: ${contact.first_name}
-Telefon: ${contact.phone_number}`);
+Telefon: ${contact.phone_number}
+Model: ${model}
+Kategoriya: ${category}`);
                 });
                 bot.sendMessage(chatId, "Rahmat! Tez orada siz bilan bog‘lanamiz.");
             });

@@ -1,3 +1,3 @@
 module.exports = {
-  ADMINS: ['zzz770017', 'zeekrshop1']
+  ADMINS: ['5984872800']
 };
