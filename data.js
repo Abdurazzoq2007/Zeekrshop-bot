@@ -222,7 +222,7 @@ module.exports = {
           image:'./Zeekr_001/img/24.png'
         }
       ],
- Tuning: [
+         Tuning: [
         { 
           fullname:" Zeekr 001",
           name: 'Кристалл рычаг до рестайлинга.', 
@@ -294,6 +294,192 @@ module.exports = {
           text:'Магазин «ZeekrShop» предлагает\n широкий ассортимент идеальных\n аксессуаров для электромобилей!',
           admin:"@zzz770017 , @zeekrshop1",
           image:'./Zeekr_001/img/Tuning_8.png'
+        }
+      ]
+    },
+    'Zeekr 007': {
+      Aksessuarlar: [
+        { 
+          fullname:" Zeekr 007",
+          name: 'Cалон Коврик TPE.', 
+          description: 'Премиум-класс для Zeekr 007.',
+          line:"______________",
+          text:'Магазин «ZeekrShop» предлагает\n широкий ассортимент идеальных\n аксессуаров для электромобилей!',
+          admin:"@zzz770017 , @zeekrshop1",
+          image:'./Zeekr_007/img/1.png'
+        },
+        { 
+          fullname:" Zeekr 007",
+          name: 'Багаж коврик TPE.', 
+          description: 'Премиум-класс для Zeekr 007.',
+          line:"______________",
+          text:'Магазин «ZeekrShop» предлагает\n широкий ассортимент идеальных\n аксессуаров для электромобилей!',
+          admin:"@zzz770017 , @zeekrshop1",
+          image:'./Zeekr_007/img/2.png'
+        },
+        { 
+          fullname:" Zeekr 007",
+          name: 'Накладка  MagSafe.', 
+          description: 'Премиум-класс для Zeekr 007.',
+          line:"______________",
+          text:'Магазин «ZeekrShop» предлагает\n широкий ассортимент идеальных\n аксессуаров для электромобилей!',
+          admin:"@zzz770017 , @zeekrshop1",
+          image:'./Zeekr_007/img/3.png'
+        },
+        { 
+          fullname:" Zeekr 007",
+          name: 'Накладка на ручка.', 
+          description: 'Премиум-класс для Zeekr 007.',
+          line:"______________",
+          text:'Магазин «ZeekrShop» предлагает\n широкий ассортимент идеальных\n аксессуаров для электромобилей!',
+          admin:"@zzz770017 , @zeekrshop1",
+          image:'./Zeekr_007/img/4.png'
+        },
+        { 
+          fullname:" Zeekr 007",
+          name: 'Накладка на карманы 4 дверей.', 
+          description: 'Премиум-класс для Zeekr 007.',
+          line:"______________",
+          text:'Магазин «ZeekrShop» предлагает\n широкий ассортимент идеальных\n аксессуаров для электромобилей!',
+          admin:"@zzz770017 , @zeekrshop1",
+          image:'./Zeekr_007/img/5.png'
+        },
+        { 
+          fullname:" Zeekr 007",
+          name: 'Мини-бар стаканчик.', 
+          description: 'Премиум-класс для Zeekr 007.',
+          line:"______________",
+          text:'Магазин «ZeekrShop» предлагает\n широкий ассортимент идеальных\n аксессуаров для электромобилей!',
+          admin:"@zzz770017 , @zeekrshop1",
+          image:'./Zeekr_007/img/6.png'
+        },
+        { 
+          fullname:" Zeekr 007",
+          name: 'Органайзер бара.', 
+          description: 'Премиум-класс для Zeekr 007.',
+          line:"______________",
+          text:'Магазин «ZeekrShop» предлагает\n широкий ассортимент идеальных\n аксессуаров для электромобилей!',
+          admin:"@zzz770017 , @zeekrshop1",
+          image:'./Zeekr_007/img/7.png'
+        },
+        { 
+          fullname:" Zeekr 007",
+          name: 'Накладка на порог из нержавика.', 
+          description: 'Премиум-класс для Zeekr 007.',
+          line:"______________",
+          text:'Магазин «ZeekrShop» предлагает\n широкий ассортимент идеальных\n аксессуаров для электромобилей!',
+          admin:"@zzz770017 , @zeekrshop1",
+          image:'./Zeekr_007/img/8.png'
+        },
+        { 
+          fullname:" Zeekr 007",
+          name: 'Накладка на порог карбон.', 
+          description: 'Премиум-класс для Zeekr 007.',
+          line:"______________",
+          text:'Магазин «ZeekrShop» предлагает\n широкий ассортимент идеальных\n аксессуаров для электромобилей!',
+          admin:"@zzz770017 , @zeekrshop1",
+          image:'./Zeekr_007/img/9.png'
+        },
+        { 
+          fullname:" Zeekr 007",
+          name: 'Защита сидений.', 
+          description: 'Премиум-класс для Zeekr 007.',
+          line:"______________",
+          text:'Магазин «ZeekrShop» предлагает\n широкий ассортимент идеальных\n аксессуаров для электромобилей!',
+          admin:"@zzz770017 , @zeekrshop1",
+          image:'./Zeekr_007/img/10.png'
+        },
+        { 
+          fullname:" Zeekr 007",
+          name: 'Защитная обшивка.', 
+          description: 'Премиум-класс для Zeekr 007.',
+          line:"______________",
+          text:'Магазин «ZeekrShop» предлагает\n широкий ассортимент идеальных\n аксессуаров для электромобилей!',
+          admin:"@zzz770017 , @zeekrshop1",
+          image:'./Zeekr_007/img/11.png'
+        },
+        { 
+          fullname:" Zeekr 007",
+          name: 'Ароматизатоp.', 
+          description: 'Премиум-класс для Zeekr 007.',
+          line:"______________",
+          text:'Магазин «ZeekrShop» предлагает\n широкий ассортимент идеальных\n аксессуаров для электромобилей!',
+          admin:"@zzz770017 , @zeekrshop1",
+          image:'./Zeekr_007/img/12.png'
+        },
+        { 
+          fullname:" Zeekr 007",
+          name: 'Салонный фильтр.', 
+          description: 'Премиум-класс для Zeekr 007.',
+          line:"______________",
+          text:'Магазин «ZeekrShop» предлагает\n широкий ассортимент идеальных\n аксессуаров для электромобилей!',
+          admin:"@zzz770017 , @zeekrshop1",
+          image:'./Zeekr_007/img/13.png'
+        },
+        { 
+          fullname:" Zeekr 007",
+          name: 'Дворник.', 
+          description: 'Премиум-класс для Zeekr 007.',
+          line:"______________",
+          text:'Магазин «ZeekrShop» предлагает\n широкий ассортимент идеальных\n аксессуаров для электромобилей!',
+          admin:"@zzz770017 , @zeekrshop1",
+          image:'./Zeekr_007/img/14.png'
+        },
+        { 
+          fullname:" Zeekr 007",
+          name: 'Дворник.', 
+          description: 'Премиум-класс для Zeekr 007.',
+          line:"______________",
+          text:'Магазин «ZeekrShop» предлагает\n широкий ассортимент идеальных\n аксессуаров для электромобилей!',
+          admin:"@zzz770017 , @zeekrshop1",
+          image:'./Zeekr_007/img/17.png'
+        },
+        { 
+          fullname:" Zeekr 007",
+          name: 'Дворник.', 
+          description: 'Премиум-класс для Zeekr 007.',
+          line:"______________",
+          text:'Магазин «ZeekrShop» предлагает\n широкий ассортимент идеальных\n аксессуаров для электромобилей!',
+          admin:"@zzz770017 , @zeekrshop1",
+          image:'./Zeekr_007/img/18.png'
+        },
+        { 
+          fullname:" Zeekr 007",
+          name: 'Дворник.', 
+          description: 'Премиум-класс для Zeekr 007.',
+          line:"______________",
+          text:'Магазин «ZeekrShop» предлагает\n широкий ассортимент идеальных\n аксессуаров для электромобилей!',
+          admin:"@zzz770017 , @zeekrshop1",
+          image:'./Zeekr_007/img/19.png'
+        },
+        { 
+          fullname:" Zeekr 007",
+          name: 'Дворник.', 
+          description: 'Премиум-класс для Zeekr 007.',
+          line:"______________",
+          text:'Магазин «ZeekrShop» предлагает\n широкий ассортимент идеальных\n аксессуаров для электромобилей!',
+          admin:"@zzz770017 , @zeekrshop1",
+          image:'./Zeekr_007/img/20.png'
+        }
+      ],
+      Tuning: [
+        { 
+          fullname:" Zeekr 007",
+          name: 'Кнопка руля.', 
+          description: 'Премиум-класс для Zeekr 007.',
+          line:"______________",
+          text:'Магазин «ZeekrShop» предлагает\n широкий ассортимент идеальных\n аксессуаров для электромобилей!',
+          admin:"@zzz770017 , @zeekrshop1",
+          image:'./Zeekr_007/img/15.png'
+        },
+        { 
+          fullname:" Zeekr 007",
+          name: 'Кнопка руля.', 
+          description: 'Премиум-класс для Zeekr 007.',
+          line:"______________",
+          text:'Магазин «ZeekrShop» предлагает\n широкий ассортимент идеальных\n аксессуаров для электромобилей!',
+          admin:"@zzz770017 , @zeekrshop1",
+          image:'./Zeekr_007/img/16.png'
         }
       ]
     } 
